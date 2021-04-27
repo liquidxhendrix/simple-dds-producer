@@ -7,6 +7,9 @@
 #include <errno.h>
 #include <unistd.h>
 #include <signal.h> 
+#include "ndds/ndds_c.h"
+#include "ShapeType.h"
+#include "ShapeTypeSupport.h"
 
 
 #endif

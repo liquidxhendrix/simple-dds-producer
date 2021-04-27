@@ -1,0 +1,10 @@
+{
+    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/liquidxhendrix/Projects/simple-dds-producer/objs/x64Linux4gcc7.3.0",
+            "binaryPath": "/home/liquidxhendrix/Projects/simple-dds-producer/objs/x64Linux4gcc7.3.0/dds_producer",
+            "binaryArgs": []
+        }
+    ]
+}

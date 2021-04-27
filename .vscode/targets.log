@@ -1,0 +1,444 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Apr 27 11:03:11 2021
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+NDDSHOME = /opt/rti_connext_dds-6.0.1
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'makefile', line 72)
+INCLUDES = -I. -I$(NDDSHOME)/include -I$(NDDSHOME)/include/ndds 
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/liquidxhendrix/Projects/simple-dds-producer
+# environment
+GDK_SCALE = 1
+# makefile
+SHELL = /bin/sh
+# environment
+SNAP_DATA = /var/snap/code/62
+# makefile (from 'makefile', line 46)
+SYSLIBS = -ldl -lm -lpthread -lrt
+# environment
+VTE_VERSION = 6003
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:29472
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# makefile (from 'makefile', line 60)
+SHAREDLIB = 0
+# automatic
+@F = $(notdir $@)
+# environment
+IM_CONFIG_PHASE = 1
+# makefile (from 'makefile', line 49)
+DEBUG = 0 
+# environment
+USERNAME = liquidxhendrix
+# makefile (from 'makefile', line 81)
+SOURCES = $(SOURCE_DIR)ShapeTypePlugin.c $(SOURCE_DIR)ShapeType.c $(SOURCE_DIR)ShapeTypeSupport.c
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+MANAGERPID = 943
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/liquidxhendrix/Projects/simple-dds-producer
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/62/usr/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /opt/rti_connext_dds-6.0.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/RTI-A:@/tmp/.ICE-unix/1204,unix/RTI-A:/tmp/.ICE-unix/1204
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/liquidxhendrix/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+SNAP = /snap/code/62
+# environment
+SNAP_VERSION = 3c4e3df9
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+DISABLE_WAYLAND = 1
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=6eee5c37-1ac4-4abf-90da-f30768274bbe&iid=6eee5c37-1ac4-4abf-90da-f30768274bbe&sid=6eee5c37-1ac4-4abf-90da-f30768274bbe","uploadToServer":true}
+# environment
+INVOCATION_ID = 567028625b1141bc95bcc94a7aaba007
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/62/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+SWT_GTK3 = 0
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# automatic
+%F = $(notdir $%)
+# makefile (from 'makefile', line 30)
+SOURCE_DIR = 
+# environment
+DISPLAY = :0
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+PWD = /home/liquidxhendrix/Projects/simple-dds-producer
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 1162
+# environment
+RTI_SHARED_LIB_SUFFIX = .so
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# makefile (from 'makefile', line 45)
+LINKER_FLAGS = -m64 $(ADDITIONAL_LINKER_FLAGS) -Wl,--no-as-needed
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/liquidxhendrix
+# environment
+LD_LIBRARY_PATH = /opt/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# makefile (from 'makefile', line 67)
+DEFINES = -DRTI_UNIX -DRTI_LINUX -DRTI_64BIT  -DRTI_STATIC
+# environment
+LOGNAME = liquidxhendrix
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = iuzyN1n2bynOOQXa48Ew15UFYZHFt_wJnqhcdrZ7UWbsYnoTwAnK
+# environment
+RTI_EXAMPLES_DIR = /home/liquidxhendrix/rti_workspace/6.0.1/examples
+# environment
+RTI_LICENSE_FILE = /home/liquidxhendrix/rti_workspace/6.0.1/rti_license.dat
+# environment
+SNAP_USER_COMMON = /home/liquidxhendrix/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from 'makefile', line 86)
+COMMONOBJS = $(COMMONSOURCES:%.c=objs/$(TARGET_ARCH)/%.o)
+# environment
+MAKELEVEL := 0
+# environment
+SNAP_REAL_HOME = /home/liquidxhendrix
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from 'makefile', line 41)
+COMPILER_FLAGS = -m64 -Wall $(ADDITIONAL_COMPILER_FLAGS)
+# environment
+QT_IM_MODULE = ibus
+# environment
+SNAP_USER_DATA = /home/liquidxhendrix/snap/code/62
+# environment
+SHLVL = 1
+# environment
+JREHOME = /opt/rti_connext_dds-6.0.1/bin/../resource/app/jre/x64Linux
+# makefile (from 'makefile', line 66)
+SHAREDLIB_SFX = z
+# makefile (from 'makefile', line 80)
+CDRSOURCES = ShapeType.idl
+# makefile (from 'makefile', line 56)
+DEBUG_SFX = 
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-d97be17d-df5e-4453-8cee-3d42982d69f8.sock
+# makefile (from 'makefile', line 84)
+EXEC = dds_producer
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = liquidxhendrix
+# environment
+SNAP_REVISION = 62
+# makefile
+.DEFAULT_GOAL := x64Linux4gcc7.3.0
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# makefile (from 'makefile', line 85)
+DIRECTORIES = objs.dir objs/$(TARGET_ARCH).dir
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# environment
+VSCODE_NODE_CACHED_DATA_DIR = /home/liquidxhendrix/.config/Code/CachedData/3c4e3df9e89829dce27b7b5c24508306b151f30d
+# environment
+OLDPWD = /home/liquidxhendrix/Projects/simple-dds-producer/objs
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = en_SG:en
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-3594ad60-1.55.2-main.sock
+# makefile (from 'makefile', line 43)
+LINKER = $(COMPILER_PATH)$(GCC_PREFIX)gcc
+# environment
+RTI_SHARED_LIB_PREFIX = lib
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+BREAKPAD_DUMP_LOCATION = /home/liquidxhendrix/.config/Code/exthost Crash Reports
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+RTI_WORKSPACE_DIR = /home/liquidxhendrix/rti_workspace/6.0.1
+# automatic
++F = $(notdir $+)
+# environment
+RTI_LD_LIBRARY_PATH = /opt/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0
+# makefile (from 'makefile', line 82)
+COMMONSOURCES = $(notdir $(SOURCES))
+# environment
+QT_ACCESSIBILITY = 1
+# makefile (from 'makefile', line 39)
+COMPILER = $(COMPILER_PATH)$(GCC_PREFIX)gcc
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = iuzyN1n2bynOOQXa48Ew15UFYZHFt_wJnqhcdrZ7UWbsYnoTwAnK
+# automatic
+<F = $(notdir $<)
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+SNAP_NAME = code
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from 'makefile', line 32)
+TARGET_ARCH = x64Linux4gcc7.3.0
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# makefile (from 'makefile', line 74)
+LIBS = -L$(NDDSHOME)/lib/$(TARGET_ARCH) -lnddsc$(SHAREDLIB_SFX)$(DEBUG_SFX) -lnddscore$(SHAREDLIB_SFX)$(DEBUG_SFX) $(SYSLIBS)
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/f2fc43e2_0174_4c08_b758_c64b061daf84
+# automatic
+^F = $(notdir $^)
+# environment
+GNOME_TERMINAL_SERVICE = :1.73
+# default
+SUFFIXES := 
+# environment
+SNAP_REEXEC = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = en_SG.UTF-8
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 15286
+# environment
+DYLD_LIBRARY_PATH = /opt/rti_connext_dds-6.0.1/bin/../resource/app/lib/x64Linux2.6gcc4.4.5/:/opt/rti_connext_dds-6.0.1/bin/../resource/app/lib/x64Linux2.6gcc4.4.5/:/opt/rti_connext_dds-6.0.1/bin/../resource/app/lib/x64Linux2.6gcc4.4.5:/opt/rti_connext_dds-6.0.1/bin/../resource/app/lib/x64Linux2.6gcc4.4.5:/opt/rti_connext_dds-6.0.1/bin/../resource/app/jre/x64Linux/lib/amd64/server:::
+# variable set hash-table stats:
+# Load=155/1024=15%, Rehash=0, Collisions=23/208=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2053, inode 582437): 22 files, no impossibilities.
+# objs/x64Linux4gcc7.3.0 (device 2053, inode 582589): No files, no impossibilities so far.
+
+# 22 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+objs/x64Linux4gcc7.3.0/%: objs/x64Linux4gcc7.3.0/%.o
+#  recipe to execute (from 'makefile', line 94):
+	$(LINKER) $(LINKER_FLAGS)   -o $@ $@.o $(COMMONOBJS) $(LIBS)
+
+objs/x64Linux4gcc7.3.0/%.o: %.c ShapeType.h
+#  recipe to execute (from 'makefile', line 97):
+	$(COMPILER) $(COMPILER_FLAGS)  -o $@ $(DEFINES) $(INCLUDES) -c $<
+
+%.dir:
+#  recipe to execute (from 'makefile', line 111):
+	@echo "Checking directory $*"
+	@if [ ! -d $* ]; then \
+		echo "Making directory $*"; \
+		mkdir -p $* ; \
+	fi;
+
+# 3 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+objs/x64Linux4gcc7.3.0.dir:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-27 10:49:19.145404116
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+objs.dir:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/x64Linux4gcc7.3.0/dds_producer.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/x64Linux4gcc7.3.0/dds_producer:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+x64Linux4gcc7.3.0: objs.dir objs/x64Linux4gcc7.3.0.dir objs/x64Linux4gcc7.3.0/ShapeTypePlugin.o objs/x64Linux4gcc7.3.0/ShapeType.o objs/x64Linux4gcc7.3.0/ShapeTypeSupport.o objs/x64Linux4gcc7.3.0/dds_producer.o objs/x64Linux4gcc7.3.0/dds_producer
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/x64Linux4gcc7.3.0/ShapeTypeSupport.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/x64Linux4gcc7.3.0/ShapeTypePlugin.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/x64Linux4gcc7.3.0/ShapeType.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=12/1024=1%, Rehash=0, Collisions=2/29=7%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 40 / storage = 717 B / avg = 17 B
+# current buf: size = 8162 B / used = 717 B / count = 40 / avg = 17 B
+
+# strcache performance: lookups = 47 / hit rate = 14%
+# hash-table stats:
+# Load=40/8192=0%, Rehash=0, Collisions=1/47=2%
+# Finished Make data base on Tue Apr 27 11:03:11 2021
+
+ 
+make: *** No rule to make target 'all'.  Stop.
+ 

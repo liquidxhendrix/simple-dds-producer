@@ -1,0 +1,19 @@
+make x64Linux4gcc7.3.0 --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/liquidxhendrix/Projects/simple-dds-producer'
+echo "Checking directory objs"
+if [ ! -d objs ]; then \
+	echo "Making directory objs"; \
+	mkdir -p objs ; \
+fi;
+echo "Checking directory objs/x64Linux4gcc7.3.0"
+if [ ! -d objs/x64Linux4gcc7.3.0 ]; then \
+	echo "Making directory objs/x64Linux4gcc7.3.0"; \
+	mkdir -p objs/x64Linux4gcc7.3.0 ; \
+fi;
+gcc -m64 -Wall   -o objs/x64Linux4gcc7.3.0/ShapeTypePlugin.o -DRTI_UNIX -DRTI_LINUX -DRTI_64BIT  -DRTI_STATIC -I. -I/opt/rti_connext_dds-6.0.1/include -I/opt/rti_connext_dds-6.0.1/include/ndds  -c ShapeTypePlugin.c
+gcc -m64 -Wall   -o objs/x64Linux4gcc7.3.0/ShapeType.o -DRTI_UNIX -DRTI_LINUX -DRTI_64BIT  -DRTI_STATIC -I. -I/opt/rti_connext_dds-6.0.1/include -I/opt/rti_connext_dds-6.0.1/include/ndds  -c ShapeType.c
+gcc -m64 -Wall   -o objs/x64Linux4gcc7.3.0/ShapeTypeSupport.o -DRTI_UNIX -DRTI_LINUX -DRTI_64BIT  -DRTI_STATIC -I. -I/opt/rti_connext_dds-6.0.1/include -I/opt/rti_connext_dds-6.0.1/include/ndds  -c ShapeTypeSupport.c
+gcc -m64 -Wall   -o objs/x64Linux4gcc7.3.0/dds_producer.o -DRTI_UNIX -DRTI_LINUX -DRTI_64BIT  -DRTI_STATIC -I. -I/opt/rti_connext_dds-6.0.1/include -I/opt/rti_connext_dds-6.0.1/include/ndds  -c dds_producer.c
+gcc -m64  -Wl,--no-as-needed   -o objs/x64Linux4gcc7.3.0/dds_producer objs/x64Linux4gcc7.3.0/dds_producer.o objs/x64Linux4gcc7.3.0/ShapeTypePlugin.o objs/x64Linux4gcc7.3.0/ShapeType.o objs/x64Linux4gcc7.3.0/ShapeTypeSupport.o -L/opt/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0 -lnddscz -lnddscorez -ldl -lm -lpthread -lrt
+make: Leaving directory '/home/liquidxhendrix/Projects/simple-dds-producer'
+ 

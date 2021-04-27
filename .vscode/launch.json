@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/dds_producer",
+            "program": "${workspaceFolder}/objs/x64Linux4gcc7.3.0/dds_producer",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
