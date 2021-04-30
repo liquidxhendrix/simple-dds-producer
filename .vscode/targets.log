@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+ 
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Apr 27 11:03:11 2021
+# Make data base, printed on Thu Apr 29 09:49:07 2021
 
 # Variables
 
@@ -25,7 +27,7 @@ XDG_SESSION_CLASS = user
 # environment
 SNAP_COMMON = /var/snap/code/common
 # environment
-NDDSHOME = /opt/rti_connext_dds-6.0.1
+NDDSHOME = /opt/rti_connext_dds-6.0.1/
 # environment
 XDG_SESSION_TYPE = x11
 # environment
@@ -44,8 +46,6 @@ GDMSESSION = ubuntu
 XMODIFIERS = @im=ibus
 # makefile
 CURDIR := /home/liquidxhendrix/Projects/simple-dds-producer
-# environment
-GDK_SCALE = 1
 # makefile
 SHELL = /bin/sh
 # environment
@@ -57,7 +57,7 @@ VTE_VERSION = 6003
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:29472
+JOURNAL_STREAM = 8:29538
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -85,7 +85,7 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-MANAGERPID = 943
+MANAGERPID = 923
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -95,11 +95,11 @@ GSETTINGS_SCHEMA_DIR = /snap/code/62/usr/share/glib-2.0/schemas
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /opt/rti_connext_dds-6.0.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/RTI-A:@/tmp/.ICE-unix/1204,unix/RTI-A:/tmp/.ICE-unix/1204
+SESSION_MANAGER = local/RTI-A:@/tmp/.ICE-unix/1184,unix/RTI-A:/tmp/.ICE-unix/1184
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -117,13 +117,11 @@ DISABLE_WAYLAND = 1
 # environment
 VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=6eee5c37-1ac4-4abf-90da-f30768274bbe&iid=6eee5c37-1ac4-4abf-90da-f30768274bbe&sid=6eee5c37-1ac4-4abf-90da-f30768274bbe","uploadToServer":true}
 # environment
-INVOCATION_ID = 567028625b1141bc95bcc94a7aaba007
+INVOCATION_ID = b4f5253e44f3480d8fa7d8cee71e889f
 # environment
 GDK_PIXBUF_MODULEDIR = /snap/code/62/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
-# environment
-SWT_GTK3 = 0
 # environment
 LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
 # environment
@@ -145,9 +143,7 @@ PWD = /home/liquidxhendrix/Projects/simple-dds-producer
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1162
-# environment
-RTI_SHARED_LIB_SUFFIX = .so
+SSH_AGENT_PID = 1148
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # makefile (from 'makefile', line 45)
@@ -158,8 +154,6 @@ GTK_MODULES = gail:atk-bridge
 VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
 # environment
 HOME = /home/liquidxhendrix
-# environment
-LD_LIBRARY_PATH = /opt/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0
 # environment
 LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
@@ -174,10 +168,6 @@ APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # environment
 SNAP_CONTEXT = iuzyN1n2bynOOQXa48Ew15UFYZHFt_wJnqhcdrZ7UWbsYnoTwAnK
-# environment
-RTI_EXAMPLES_DIR = /home/liquidxhendrix/rti_workspace/6.0.1/examples
-# environment
-RTI_LICENSE_FILE = /home/liquidxhendrix/rti_workspace/6.0.1/rti_license.dat
 # environment
 SNAP_USER_COMMON = /home/liquidxhendrix/snap/code/common
 # environment
@@ -206,8 +196,6 @@ QT_IM_MODULE = ibus
 SNAP_USER_DATA = /home/liquidxhendrix/snap/code/62
 # environment
 SHLVL = 1
-# environment
-JREHOME = /opt/rti_connext_dds-6.0.1/bin/../resource/app/jre/x64Linux
 # makefile (from 'makefile', line 66)
 SHAREDLIB_SFX = z
 # makefile (from 'makefile', line 80)
@@ -217,7 +205,7 @@ DEBUG_SFX =
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-d97be17d-df5e-4453-8cee-3d42982d69f8.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-d50b57fd-7dee-4cc5-91ea-ec3ce1d18f0a.sock
 # makefile (from 'makefile', line 84)
 EXEC = dds_producer
 # default
@@ -239,7 +227,7 @@ MAKE_COMMAND := make
 # environment
 VSCODE_NODE_CACHED_DATA_DIR = /home/liquidxhendrix/.config/Code/CachedData/3c4e3df9e89829dce27b7b5c24508306b151f30d
 # environment
-OLDPWD = /home/liquidxhendrix/Projects/simple-dds-producer/objs
+OLDPWD = /home/liquidxhendrix/Projects
 # default
 .VARIABLES := 
 # automatic
@@ -250,8 +238,6 @@ LANGUAGE = en_SG:en
 VSCODE_IPC_HOOK = /run/user/1000/vscode-3594ad60-1.55.2-main.sock
 # makefile (from 'makefile', line 43)
 LINKER = $(COMPILER_PATH)$(GCC_PREFIX)gcc
-# environment
-RTI_SHARED_LIB_PREFIX = lib
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -262,12 +248,8 @@ MFLAGS = -pqrR
 BREAKPAD_DUMP_LOCATION = /home/liquidxhendrix/.config/Code/exthost Crash Reports
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
-# environment
-RTI_WORKSPACE_DIR = /home/liquidxhendrix/rti_workspace/6.0.1
 # automatic
 +F = $(notdir $+)
-# environment
-RTI_LD_LIBRARY_PATH = /opt/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0
 # makefile (from 'makefile', line 82)
 COMMONSOURCES = $(notdir $(SOURCES))
 # environment
@@ -293,11 +275,11 @@ GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # makefile (from 'makefile', line 74)
 LIBS = -L$(NDDSHOME)/lib/$(TARGET_ARCH) -lnddsc$(SHAREDLIB_SFX)$(DEBUG_SFX) -lnddscore$(SHAREDLIB_SFX)$(DEBUG_SFX) $(SYSLIBS)
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/f2fc43e2_0174_4c08_b758_c64b061daf84
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/f8fa7362_c706_4128_8839_1c5b1e016a74
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.73
+GNOME_TERMINAL_SERVICE = :1.71
 # default
 SUFFIXES := 
 # environment
@@ -317,11 +299,9 @@ LANG = en_SG.UTF-8
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 15286
-# environment
-DYLD_LIBRARY_PATH = /opt/rti_connext_dds-6.0.1/bin/../resource/app/lib/x64Linux2.6gcc4.4.5/:/opt/rti_connext_dds-6.0.1/bin/../resource/app/lib/x64Linux2.6gcc4.4.5/:/opt/rti_connext_dds-6.0.1/bin/../resource/app/lib/x64Linux2.6gcc4.4.5:/opt/rti_connext_dds-6.0.1/bin/../resource/app/lib/x64Linux2.6gcc4.4.5:/opt/rti_connext_dds-6.0.1/bin/../resource/app/jre/x64Linux/lib/amd64/server:::
+VSCODE_PID = 2579
 # variable set hash-table stats:
-# Load=155/1024=15%, Rehash=0, Collisions=23/208=11%
+# Load=144/1024=14%, Rehash=0, Collisions=22/197=11%
 
 # Pattern-specific Variable Values
 
@@ -329,10 +309,10 @@ DYLD_LIBRARY_PATH = /opt/rti_connext_dds-6.0.1/bin/../resource/app/lib/x64Linux2
 
 # Directories
 
-# . (device 2053, inode 582437): 22 files, no impossibilities.
+# . (device 2053, inode 582437): 21 files, no impossibilities.
 # objs/x64Linux4gcc7.3.0 (device 2053, inode 582589): No files, no impossibilities so far.
 
-# 22 files, no impossibilities in 2 directories.
+# 21 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
@@ -431,14 +411,12 @@ objs/x64Linux4gcc7.3.0/ShapeType.o:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 40 / storage = 717 B / avg = 17 B
-# current buf: size = 8162 B / used = 717 B / count = 40 / avg = 17 B
+# strcache buffers: 1 (0) / strings = 39 / storage = 679 B / avg = 17 B
+# current buf: size = 8162 B / used = 679 B / count = 39 / avg = 17 B
 
-# strcache performance: lookups = 47 / hit rate = 14%
+# strcache performance: lookups = 46 / hit rate = 15%
 # hash-table stats:
-# Load=40/8192=0%, Rehash=0, Collisions=1/47=2%
-# Finished Make data base on Tue Apr 27 11:03:11 2021
+# Load=39/8192=0%, Rehash=0, Collisions=1/46=2%
+# Finished Make data base on Thu Apr 29 09:49:07 2021
 
- 
-make: *** No rule to make target 'all'.  Stop.
  
